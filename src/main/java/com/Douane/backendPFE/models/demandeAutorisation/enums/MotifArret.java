@@ -1,0 +1,12 @@
+package com.Douane.backendPFE.models.demandeAutorisation.enums;
+
+public enum MotifArret
+
+ {
+    EXPIRATION_DU_DELAI_INCESSIBILITE,
+    SITUATION_REGULARISEE_SUITE_PAIEMENT,
+    SITUATION_REGULARISEE_SUITE_DESTRUCTION,
+    DECES_DU_PROPRIETAIRE,
+    DECISION_JUDICIAIRE;
+}
+

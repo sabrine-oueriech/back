@@ -1,0 +1,37 @@
+package com.Douane.backendPFE.models.demandeAutorisation.enums;
+
+public enum BrFrontalier {
+    TNBF01,
+    TNBF02,
+    TNBF03,
+    TNBF04,
+    TNBF05,
+    TNBF06,
+    TNBF07,
+    TNBF08,
+    TNBF09,
+    TNBF10,
+    TNBF11,
+    TNBF12,
+    TNBF13,
+    TNBF14,
+    TNBF15,
+    TNBF16,
+    TNBF17,
+    TNBF18,
+    TNBF19,
+    TNBF20,
+    TNBF21,
+    TNBF22,
+    TNBF23,
+    TNBF24,
+    TNBF25,
+    TNBF26,
+    TNBF27,
+    TNBF28,
+    TNBF29,
+    TNBF30,
+    TNBF31,
+    TNBF32
+
+}

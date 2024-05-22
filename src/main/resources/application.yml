@@ -1,0 +1,49 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/Douane?serverTimezone=GMT&createDatabaseIfNotExist=true
+    username: root
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: true
+        show_sql: true
+  logging:
+    level:
+      org:
+        hibernate:
+          SQL: DEBUG
+          type:
+            descriptor:
+              sql: TRACE
+server:
+  error:
+    include-message: always
+
+
+  main:
+    allow-bean-definition-overriding: true
+
+jwtSecret: 04ca023b39512e46d0c2cf4b48d5aac61d34302994c87ed4eff225dcf3b0a218739f3897051a057f9b846a69ea2927a587044164b7bae5e1306219d50b588cb1
+jwtExpirationMs: 86400000
+
+flicker:
+  apiKey: eae1982895dea7992728dbeba040060a
+  apiSecret: 0df6e3552d86bb7b
+  appKey: 72157720915501711-de4c164b1850da08
+  appSecret: 7c652accdcd90e9e
+
+  logging:
+    level:
+      org:
+        springframework:
+          web: DEBUG
+      com:
+        fasterxml:
+          jackson: DEBUG
